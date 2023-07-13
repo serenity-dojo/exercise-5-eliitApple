@@ -1,9 +1,9 @@
 package com.serenitydojo;
 
-public class Hampster extends Pet {
+public class Hamster extends Pet {
     private String favoriteGame;
 
-    public Hampster(String name, int age, String wheel) {
+    public Hamster(String name, int age, String wheel) {
         super(name, age);
     }
 
