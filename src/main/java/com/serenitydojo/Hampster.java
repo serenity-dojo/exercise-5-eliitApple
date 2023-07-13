@@ -6,4 +6,11 @@ public class Hampster extends Pet {
     public Hampster(String name, int age) {
         super(name, age);
     }
+
+    @Override
+    public String play() {
+        return "plays with wheel";
+    }
+
+
 }
